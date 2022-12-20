@@ -1,0 +1,30 @@
+#detailArea{
+    width: 70%;
+    text-align: center;
+    
+    border: 1px solid salmon;
+    padding: 10px;
+}
+
+.detailThumbnail{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+table{
+    border: 1px solid salmon;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid salmon;
+    text-align: left;
+    padding: 5px;
+}
+.head{
+    background-color: rgb(255, 185, 177);
+    width: 100px;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.search-form{
+    margin: 10px;
+}
+
+.search-form > input{
+    margin :  0px 5px;
+    height: 20px;
+    font-size: 15px;
+}
+.srchBtn{
+    width : 60px;
+    height: 24px;
+
+
+    color : salmon;
+    background-color: white;
+    border : 1px solid salmon;
+
+    margin: 0px 5px;
+
+    cursor: pointer;
+}
+.searchCityCode{
+    margin :  0px 5px;
+    height: 24px;
+    font-size: 15px;
+}
+

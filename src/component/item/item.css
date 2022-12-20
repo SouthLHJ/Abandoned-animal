@@ -1,0 +1,44 @@
+/* Item */
+#itemArea{
+    text-align: left;
+    width: 31%;
+    height: 100px;
+
+    border: 1px solid antiquewhite;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    cursor: pointer;    
+
+}
+
+#itemArea.select{
+    border : 2px solid salmon;
+}
+
+/* #itemArea:hover{
+    transform:  scale(1.01);
+} */
+
+.thumbnail{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 10%;
+
+
+}
+
+#info{
+    margin: 10px;
+}
+
+
+@media (max-width: 600px){
+    #itemArea{
+      width: 100%;
+    }
+}
